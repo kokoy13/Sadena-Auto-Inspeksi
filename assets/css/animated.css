@@ -1,0 +1,55 @@
+.slide-inX{
+    animation-name: slideInX;
+        animation-duration: 2s;
+}
+
+@keyframes slideInX{
+    0%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.slide-inY{
+    animation-name: slideInY;
+        animation-duration: 2s;
+}
+
+@keyframes slideInY{
+    0%{
+        transform: translateY(-300%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.slide-inx{
+    animation-name: slideInx;
+        animation-duration: 2s;
+}
+
+@keyframes slideInx{
+    0%{
+        transform: translateX(170%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.fade-animated{
+    animation-name : fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

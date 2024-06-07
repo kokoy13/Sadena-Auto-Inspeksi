@@ -1,0 +1,332 @@
+<!DOCTYPE html> 
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+
+    <!-- Link Icon -->
+    <link rel="shortcut icon" href="assets/img/LOGO ONLY PRIMARY NO TEXT.png" type="image/x-icon">
+
+    <title>Sadena Auto Inspeksi</title>
+</head>
+<body id="home" style="font-family: Montserrat;">
+
+    <!-- moveToTop Button -->
+    <img id="scrollToTopButton" class="hidden fixed bottom-0 right-0 mr-2 mb-2 z-30 max-sm:w-16 max-sm:h-16 max-lg:w-32 max-lg:h-32 w-20 h-20" src="assets/img/top.png" alt="">
+
+    <!-- Navigation Bar -->
+    <header id="navbar" class="fixed flex items-center justify-between py-3 px-8 w-full z-30">
+        <a href="index.html" class="slide-inX">
+            <img class="max-sm:w-8 max-sm:h-8 w-16 h-16 rounded-full" src="assets/img/LOGO ONLY PRIMARY NO TEXT NO BG.png" alt="">
+        </a>
+        <!-- Navigation -->
+        <nav class="slide-inx">
+            <ul class="flex max-sm:gap-3 gap-10 max-sm:text-xs text-base font-bold text-white">
+                <li><a class="hover:text-red-600 transition-colors duration-300" href="#home">Home</a></li>
+                <li><a class="hover:text-red-600 transition-colors duration-300" href="#about">About</a></li>
+                <li><a class="hover:text-red-600 transition-colors duration-300" href="#service">Service</a></li>
+                <li><a class="hover:text-red-600 transition-colors duration-300" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="">
+
+        <!-- Hero Section -->
+        <section  style="background-image: url('assets/img/bg-sadena.JPG'); background-position: center; background-repeat: no-repeat; background-size: cover;" class="max-sm:py-28 max-lg:py-40 py-44 relative">
+            <div class="bg-black bg-opacity-40 absolute top-0 left-0 right-0 bottom-0"></div>
+            <div class="flex flex-col items-center justify-center max-sm:gap-3 gap-5 text-white ">
+                <span class="bg-red-600 max-sm:w-10 max-lg:w-14 w-20 h-1 z-10 slide-inY"></span>
+                <h1 class="text-center font-bold max-sm:text-2xl text-4xl z-10 slide-inY">CV Satria deMongga <br>Perdana</h1>
+                <h3 class="max-sm:text-sm text-lg z-10 font-medium slide-inx">Auto Inspeksi and Safety Driving</h3>
+                <p class="max-sm:text-xs z-10 px-10 text-center max-lg:text-base text-sm slide-inX">Memberikan pengetahuan dasar tentang inspeksi Mobil, Kursus Mengemudi, Safety Driving Training, dan Spesialis Safety Driving Training.</p>
+                <a href="#about" class="z-10 bg-red-600 rounded-sm flex justify-center items-center hover:bg-white hover:text-red-600 transition-colors duration-300 fade-animated">
+                    <span class="max-sm:px-5 px-8 max-sm:py-2 py-4 max-sm:text-xs font-medium text-base ">Tentang Kami</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="mx-10 my-10 p-5 flex justify-center bg-zinc-200 relative dark:bg-white">
+
+            <!-- Line Top-->
+            <div class="bg-zinc-500 w-5 h-[2px] transform rotate-[135deg] absolute top-0 left-0 ml-1 my-3">
+                <span class="w-3 text-zinc-500"></span>
+            </div>
+            <div class="bg-zinc-500 w-8 h-[2px] transform rotate-[135deg] absolute top-0 left-0 ml-[2px] my-4">
+                <span class="w-3 text-zinc-500"></span>
+            </div>
+            <div class="bg-zinc-500 w-10 h-[2px] transform rotate-[135deg] absolute top-0 left-0 ml-[2px] my-5">
+                <span class="w-3 text-zinc-500"></span>
+            </div>
+
+
+            <!-- Line Bottom -->
+            <div class="bg-zinc-500 w-5 h-[2px] transform rotate-[135deg] absolute bottom-0 right-0 mr-1 mb-3">
+                <span class="w-3 text-zinc-500"></span>
+            </div>
+            <div class="bg-zinc-500 w-8 h-[2px] transform rotate-[135deg] absolute bottom-0 right-0 mr-[2px] mb-4">
+                <span class="w-3 text-zinc-500"></span>
+            </div>
+            <div class="bg-zinc-500 w-10 h-[2px] transform rotate-[135deg] absolute bottom-0 right-0 mr-[2px] mb-5">
+                <span class="w-3 text-zinc-500"></span>
+            </div>
+
+            <div class="flex max-sm:flex-col justify-center items-center max-lg:flex-row max-lg:flex-wrap gap-7">
+                <div class="flex gap-3 items-center flex-col">
+                    <img class="w-16 h-w-16" src="assets/img/knowledge.png" alt="">
+                    <div class="flex flex-col items-center">
+                        <div class="font-bold text-lg text-center">Pengetahuan Dasar Inspeksi</div>
+                        <div class="text-sm text-center">Mempelajari dasar - dasar inspeksi</div>
+                    </div>
+                </div>
+                <div class="flex gap-3 items-center flex-col">
+                    <img class="w-16 h-w-16" src="assets/img/courses.png" alt="">
+                    <div class="flex flex-col items-center">
+                        <div class="font-bold text-lg">Drive Course</div>
+                        <div class="text-sm text-center">Praktek mengemudi dan Pengenalan simbol - simbol</div>
+                    </div>
+                </div>
+                <div class="flex gap-3 items-center flex-col">
+                    <img class="w-16 h-w-16" src="assets/img/safety.png" alt="">
+                    <div class="flex flex-col items-center">
+                        <div class="font-bold text-lg">Safety Driving</div>
+                        <div class="text-sm text-center">Mempelajari Teknik Mengemudi Defensif</div>
+                    </div>
+                </div>
+                <div class="flex gap-3 items-center flex-col">
+                    <img class="w-16 h-w-16" src="assets/img/specialist.png" alt="">
+                    <div class="flex flex-col items-center">
+                        <div class="font-bold text-lg">Safety Driving Spesialis</div>
+                        <div class="text-sm text-center">Spesialis membantu mengatasi tantangan khusus</div>
+                    </div>
+                </div>
+                <div class="flex gap-3 items-center flex-col">
+                    <img class="w-16 h-w-16" src="assets/img/driving-license.png" alt="">
+                    <div class="flex flex-col items-center">
+                        <div class="font-bold text-lg">Driving License</div>
+                        <div id="about" class="text-sm text-center">Perusahaan akan mengeluarkan SIM dari Kepolisian</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="flex max-lg:flex-col flex-row">
+            <div class=" flex flex-col max-sm:gap-3 gap-5 order-1 justify-between">
+                <div class="flex flex-col gap-3 max-sm:px-5 px-10 pt-10">
+                    <h1 class="max-sm:text-xl max-lg:text-3xl text-xl font-bold">Tentang Kami</h1>
+                    <span class="bg-red-600 max-sm:w-10 max-lg:w-14 h-1 w-10"></span>
+                </div>
+                <article class="flex flex-col gap-5 max-sm:px-5 px-10 pb-10">
+                    <div class="max-sm:text-xs max-lg:text-base text-sm leading-6">
+                        Perusahaan CV.Satria Demongga Perdana adalah perusahaan yang bergerak dalam
+                        bidang Inspeksi & Safety Driving kendaraan terkemuka dalam menyediakan jasa
+                        Inspeksi & Safety Driving Training dengan pengemudi yang komprehensif dan
+                        berkualitas tinggi serta pengetahuan dasar tentang inspeksi mobil. 
+                    </div>
+                    <div class="max-sm:text-xs max-lg:text-base text-sm leading-6">
+                        Kami memiliki tujuan untuk membantu individu memperoleh keterampilan mengemudi
+                        yang aman dan bertanggung jawab, serta mempersiapkan mereka untuk sukses dalam
+                        menghadapi ujian untuk mendapatkan izin mengemudi.
+                    </div>
+                </article>
+                <div class="px-5 py-3 flex bg-red-600 gap-5 max-sm:justify-center justify-around">
+                    <div class="flex flex-col text-white gap-2 max-sm:text-[10px] max-lg:text-base text-sm">
+                        <div class="hover:text-neutral-900 transition duration-300">
+                            • Inspect knowledge
+                        </div>
+                        <div class="hover:text-neutral-900 transition duration-300">
+                            • Drive Course
+                        </div>
+                        <div class="hover:text-neutral-900 transition duration-300">
+                            • Safety Driving
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-white gap-2 max-sm:text-[10px] max-lg:text-base text-sm">
+                        <div class="hover:text-neutral-900 transition duration-300">   
+                            • Spesialist Drive
+                        </div>
+                        <div class="hover:text-neutral-900 transition duration-300">
+                            • Drive License
+                        </div>
+                    </div>
+                    <a href="#service" class="max-sm:text-xs text-base font-semibold border-2 border-white py-2 px-3 bg-red-600 text-white hover:bg-white hover:text-red-600 self-center transition duration-300 text-center">
+                        <span>Layanan Kami</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-zinc-200 p-5 flex flex-col gap-5 text-neutral-900 w-full">
+                <div class="flex gap-3">
+                    <img class="w-14 h-14" src="assets/img/right.png" alt="">
+                    <div class="flex flex-col">
+                        <div class="max-sm:text-base font-semibold text-xl">Visi</div>
+                        <div class="max-sm:text-xs leading-5 font-medium max-lg:text-base text-xs">
+                            “ Menjadi perusahaan pelatihan terkemuka dalam
+                            mengajarkan keterampilan berkendara yang aman dan
+                            bertanggung jawab. Serta berusaha untuk menambah
+                            pengetahuan dan pengalaman terbaik dalam hal
+                            keselamatan lalu lintas, dengan membantu
+                            meningkatkan kemampuan pengemudi dan mengurangi
+                            jumlah kecelakaan di jalan raya. “
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <img class="w-14 h-14" src="assets/img/right.png" alt="">
+                    <div class="flex flex-col">
+                        <div class="max-sm:text-base font-semibold text-xl">Misi</div>
+                        <div class="max-sm:text-xs leading-5 font-medium max-lg:text-base text-xs">
+                            1. Memberikan pelatihan berkendara yang inovatif dan
+                            efektif untuk individu dan Perusahaan <br>
+                            2. Memberikan pengetahuan dasar tentang inspeksi mobil. <br>
+                            3. Berkomitmen untuk membantu menghasilkan 
+                            pengemudi yang berpengetahuan luas, berkeahlian
+                            tinggi, dan memiliki perilaku bertanggung jawab di jalan.<br>
+                            4. Memberikan akses ke pendidikan berkendara yang
+                            berkualitas kepada publik secara umum<br>
+                            5. Memastikan semua pengendara memahami hukum dan
+                            etika di jalan serta pengetahuan dasar tentang inspeksi
+                            mobil.<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Banner2 Section -->
+        <section style="background-image: url(assets/img/banner.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover;" class="py-28 relative mb-5">
+            <div class="bg-black bg-opacity-30 absolute top-0 left-0 right-0 bottom-0"></div>
+            <div class="flex flex-col items-center justify-center px-20 max-sm:px-5 max-lg:px-5 gap-10 max-sm:gap-5 text-white">
+                <span class="bg-sky-950 max-sm:w-10 w-14 h-1 z-10"></span>
+                <h1 class="text-center font-bold max-sm:text-2xl z-10 text-4xl">Menyediakan Pengemudi yang Komprehensif dan Berkualitas Tinggi</h1>
+                <p class="max-sm:text-xs text-base z-10 mx-5 leading-5 rounded-2xl max-sm:p-5 max-lg:p-8 p-10 text-center bg-neutral-900 bg-opacity-80">Bergerak dalam bidang Inspeksi dan Safety Driving kendaraan terkemuka dengan tenaga kerja yang profesional dan terampil. Kami memiliki tujuan untuk membantu individu memperoleh keterampilan mengemudi yang aman dan bertanggung jawab, serta mempersiapkan mereka untuk sukses dalam menghadapi ujian untuk mendapatkan izin mengemudi.</p>
+                <a href="#service" class="z-10 bg-sky-950 rounded-sm flex justify-center items-center hover:bg-white hover:text-sky-950 transition-colors duration-300">
+                    <span id="service" class="max-sm:px-5 max-sm:py-2 px-8 py-4 max-sm:text-xs font-medium text-base">Lihat Service</span>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Service Section -->
+        <section class="flex flex-col p-10 gap-8">
+            <div class="flex flex-col items-center gap-5 mb-5">
+                <div class="flex flex-col items-center gap-3">
+                    <span class="bg-sky-950 max-sm:w-8 w-14 h-1"></span>
+                    <h1 class="max-sm:text-xl font-bold max-lg:text-3xl text-xl">Layanan Kami</h1>
+                </div>
+                <div class="flex justify-center relative">
+                    <button class="absolute top-1/2 -left-1 transform -translate-y-1/2 bg-zinc-200 rounded-full border-none p-2 text-xl cursor-pointer z-10 focus:outline-none prev-button">
+                        <img class="w-8 h-8" src="assets/img/left.png" alt="">
+                    </button>
+                    <div class="w-full overflow-hidden bg-white">
+                        <div class="flex transition-transform duration-500 ease-in-out carousel-images">
+                            <img class="w-96 h-96" src="assets/img/service.jpeg"   alt="Image 1">
+                            <img class="w-9h-96 h-96" src="assets/img/service2.jpeg" alt="Image 2">
+                            <img class="w-9h-96 h-96" src="assets/img/service3.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service4.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service5.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service6.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service7.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service8.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service9.jpeg" alt="Image 3">
+                            <img class="w-9h-96 h-96" src="assets/img/service10.jpeg" alt="Image 3">
+                        </div>
+                    </div>
+                    <button class="absolute top-1/2 -right-1 transform -translate-y-1/2 bg-zinc-200 rounded-full border-none p-2 text-xl cursor-pointer z-10 focus:outline-none next-button">
+                        <img class="w-8 h-8 transform rotate-180" src="assets/img/left.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-5 mb-5">
+                <div class="flex flex-col items-center gap-3">
+                    <h1 class="max-sm:text-xl max-lg:text-3xl text-xl font-bold">Klien</h1>
+                    <span class="bg-sky-950 w-10 h-1"></span>
+                </div>
+                <div class="flex flex-wrap max-sm:gap-3 gap-5 justify-center items-center">
+                    <div class="bg-white max-sm:p-3 p-4 rounded-full flex items-center justify-center border-2">
+                        <img class="max-sm:w-14 max-sm:h-14 w-20 h-20" src="assets/img/caltex.jpeg" alt="">
+                    </div>
+                    <div class="bg-white max-sm:p-3 p-4 rounded-full flex items-center justify-center border-2">
+                        <img class="max-sm:w-14 max-sm:h-14 w-20 h-20" src="assets/img/wika.png" alt="">
+                    </div>
+                    <div class="bg-white max-sm:px-3 px-4 max-sm:py-5 py-6 rounded-full flex items-center justify-center border-2">
+                        <img class="max-sm:w-14 max-sm:h-10 w-20 h-16" src="assets/img/bormindo.png" alt="">
+                    </div>
+                    <div class="bg-white max-sm:p-3 p-4 rounded-full flex items-center justify-center border-2">
+                        <img class="max-sm:w-14 max-sm:h-14 w-20 h-20" src="assets/img/Pertamina.jpeg" alt="">
+                    </div>
+                    <div class="bg-white max-sm:p-3 p-4 rounded-full flex items-center justify-center border-2">
+                        <img class="max-sm:w-14 max-sm:h-14 w-20 h-20" src="assets/img/BOB.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-5">
+                <div class="flex flex-col items-center gap-3">
+                    <h1 class="max-sm:text-xl max-lg:text-3xl text-xl font-bold">Testimoni</h1>
+                    <span class="bg-sky-950 w-14 h-1"></span>
+                </div>
+                <div class="flex flex-wrap gap-3 justify-center items-center">
+                    <img class="w-96 border-2" src="assets/img/testimoni.jpeg" alt="">
+                    <img class="w-96 border-2" src="assets/img/testimoni2.jpeg" alt="">
+                    <img class="w-96 border-2" src="assets/img/testimoni3.jpeg" alt="">
+                    <img class="w-96 border-2" src="assets/img/testimoni4.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="flex flex-col">
+        <!-- Footer1 -->
+        <div class="flex justify-center max-sm:items-start items-center max-sm:gap-3 gap-5 p-5">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.6769559369864!2d101.34306717496474!3d0.4823167995129633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMjgnNTYuMyJOIDEwMcKwMjAnNDQuMyJF!5e0!3m2!1sid!2sid!4v1717155504168!5m2!1sid!2sid" class="rounded-md" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="flex flex-col max-sm:text-[10px] max-sm:gap-1 gap-5">
+                    <h1 class="max-sm:text-base text-xl font-bold">CV Satria deMongga Perdana</h1>
+                    <div class="flex gap-2 items-center">
+                        <img class="w-4 h-4" src="assets/img/gmail.png" alt="">
+                        <a href="mailto:satriademonggaperdana@sadenaauto.com">
+                            satriademonggaperdana@sadenaauto.com</a>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <img class="w-4 h-4" src="assets/img/wa.png" alt="">
+                        <a href="https://wa.me/6285762815330">085762815330</a>
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <img class="w-4 h-4" src="assets/img/address.png" alt="">
+                        <a href="https://www.google.com/maps?q=0.482316792011261,101.34564208984375&z=17&hl=id">Garuda Sakti KM 3, Jln. Uka Simp TPU
+                            <br>Perumahan Ayu Lestari, PEKANBARU, RIAU,
+                            2829</a>
+                    </div>
+                </div>
+        </div>
+        <!-- Footer2 -->
+        <div class="bg-sky-950 flex flex-col justify-center items-center py-3 max-sm:text-[10px] gap-1 text-white">
+            <div>Ⓒ Copyright 2024 CV Satria deMongga Perdana</div>
+            <div></div>
+            <div class="max-sm:text-[10px] text-sm">Created by <a class="text-white hover:text-sky-900" href="https://www.instagram.com/andikafiransyah09/">@andikafiransyah09</a> and <a class="text-white hover:text-sky-900" href="https://www.instagram.com/_adirapratama/">@_adirapratama</a></div>
+        </div>
+    </footer>
+
+    <!-- JS Script -->
+    <script src="js/moveToTop.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html>
